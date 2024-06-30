@@ -29,11 +29,11 @@ Before running the script, ensure you have the following:
    ```pip install python-nmap```
 
 ## Explanation:
--Import the nmap module: This module provides the PortScanner class to perform network scans.
--Initialize the PortScanner object: An instance of PortScanner is created to perform the scan.
--Define the target IP address: The IP address to be scanned is specified.
--Define the scan options:
-.sV probes open ports to determine service/version info.
-.sC runs default scripts.
--Perform the scan: The scan method of the PortScanner object is called with the target and options.
--Iterate over all hosts found in the scan: The results are processed, printing the host's IP, hostname, state, and details of each detected protocol and port.
+- Import the nmap module: This module provides the PortScanner class to perform network scans.
+- Initialize the PortScanner object: An instance of PortScanner is created to perform the scan.
+- Define the target IP address: The IP address to be scanned is specified.
+- Define the scan options:
+. sV probes open ports to determine service/version info.
+. sC runs default scripts.
+- Perform the scan: The scan method of the PortScanner object is called with the target and options.
+- Iterate over all hosts found in the scan: The results are processed, printing the host's IP, hostname, state, and details of each detected protocol and port.
